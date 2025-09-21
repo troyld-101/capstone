@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Troy's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello, I am <strong>Troy Davis</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Front-End Developer
+      </p>
+      <img
+        src="pics/professional.jpg"
+        alt="Having Fun with Gemini"
+        class="intro__img"
+        title="Me! Having Fun With AI"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            I have picked up a passion for web development. I have graduated
+            from Codex Academy with a Front-End Developer certification. During
+            my time as student, I have experienced programming using tools such
+            as HTML, CSS, JavaScript, Bootstrap, Mocha, jest, React, Restful API
+            and Node.js. I look forward to where this path is going to lead me.
+          </p>
+        </div>
+        <!-- / service -->
+
+       
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Industrial Maintenance</h3>
+          <p>
+            I have worked in a variety of fields centered around machinery from
+            aviation to manufacturing. I inspect the performance of machinery,
+            clean and lubricate components, test machinery to determine whether
+            major repairs are necessary.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Front-End developer based out of Nashville, TN
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am a United States Navy veteran, serving during Operation Enduring
+          Freedom and Operation Iraqi Freedom. I was born in Brooklyn, Ny and
+          travel to numerous place while my parents served in the Army. While
+          serving in the military, I have learned a great deal about myself
+          possess great attention to detail. I'm currently studying software
+          Engineering. I will graduating soon from Upper Iowa University with and Associate Degree in Liberal Arts.
+        </p>
+        <p></p>
+      </div>
+
+      <img
+        src="pics/50cal&me.JPG"
+        alt="Watchstander ondboard the USS Gettysburg"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="portfolio">
+        <!-- Portfolio items -->
+        
+        <a href="https://monumental-moonbeam-2a9bd6.netlify.app" class="portfolio__item" data-tooltip="My Resume" title="My Resume">
+          
+          <img src="pics/kayaking.jpg" alt="My Resume" class="portfolio__img" />
+        </a>
+
+        
+        <a href="https://jazzy-pony-7100e1.netlify.app" class="portfolio__item" title="Meme Generator">
+          <img src="pics/lookoutMT.jpg" alt="Meme Generator" class="portfolio__img" />
+        </a>
+
+        
+        <a href="https://mytravels-a5bf1.firebaseapp.com/RegisterAdmin" class="portfolio__item" title="Firebase App">
+          <img src="pics/Nashville.jpg" alt="My Travels" class="portfolio__img" />
+        </a>
+
+        
+        <a href=" https://troyld-101.github.io/BlackJack/" class="portfolio__item" title="My so called Blackjack">
+          <img src="pics/Miamibeach.jpg" alt="BlackJack" class="portfolio__img" />
+        </a>
+
+        
+        <a href="https://troyld-101.github.io/MyDevJourney/" class="portfolio__item" title="My Developer Journey">
+          <img src="pics/PursianGulf.JPG" alt="Screenshot of my Dev Journey" class="portfolio__img" />
+        </a>
+
+        
+        <!-- <a href="#" class="portfolio__item">
+          <img src="img/portfolio-06.jpg" alt="" class="portfolio__img" />
+        </a>
+
+         
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-07.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        
+         <a href="#" class="portfolio__item">
+          <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-09.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio-10.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div> -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <!-- my email address -->
+      <a href="mailto:troyld.101@gmail.com" class="btn">Email Me</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/troy-davis-1073a114a/"
+            >LinkedIn</a
+          >
+        </li>
+        <!-- <li class="social-list__item">
+          <a class="social-list__link" href="http://dribbble.com"></a>
+        </li> -->
+        <!-- <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">c</a>
+        </li> -->
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/troyld-101">Github</a>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      const navToggle = document.querySelector(".nav-toggle");
+      const navLinks = document.querySelectorAll(".nav__link");
+
+      navToggle.addEventListener("click", () => {
+        document.body.classList.toggle("nav-open");
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          document.body.classList.remove("nav-open");
+        });
+      });
+    </script>
+  </body>
+</html>
